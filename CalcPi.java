@@ -12,7 +12,7 @@ public class CalcPi {
 			temp+=2.0;
 		}
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi, approximated: " + newPi * 4.0);
+		System.out.println("pi, approximated:     " + newPi * 4.0);
 
 	}
 }

@@ -21,8 +21,8 @@ public class Cheers {
                 }
                 // system prints "Give me an\a CHAR: CHAR!"
                 if(flag == true)
-                        System.out.println("Give me an " + cheering.charAt(temp) +": " + cheering.charAt(temp) +"!");
-                        else System.out.println("Give me a " + cheering.charAt(temp) +": " + cheering.charAt(temp) +"!");
+                        System.out.println("Give me an  " + cheering.charAt(temp) +": " + cheering.charAt(temp) +"!");
+                        else System.out.println("Give me a  " + cheering.charAt(temp) +": " + cheering.charAt(temp) +"!");
 
                 temp++;
         }
