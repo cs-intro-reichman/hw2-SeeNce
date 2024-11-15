@@ -29,7 +29,7 @@ public class Cheers {
         // system prints the cheering word as many times as 'n'
         System.out.println("What does that spell?");
         for(int i=0; i<n; i++){
-                System.out.println(cheering + "!!!");
+                System.out.println(cheering.toUpperCase() + "!!!");
         }
 
 
