@@ -2,7 +2,7 @@
 public class Cheers {
         public static void main(String[] args) {
         // user inputs "cheering" string and number of cheers
-        String cheering = args[0];
+        String cheering = args[0].toUpperCase();
         int n = Integer.parseInt(args[1]);
         // "an" chars
         String letters = "AEFHILMNORSX";
@@ -29,7 +29,7 @@ public class Cheers {
         // system prints the cheering word as many times as 'n'
         System.out.println("What does that spell?");
         for(int i=0; i<n; i++){
-                System.out.println(cheering.toUpperCase() + "!!!");
+                System.out.println(cheering + "!!!");
         }
 
 
