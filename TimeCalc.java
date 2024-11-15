@@ -10,14 +10,14 @@ public class TimeCalc {
         hours = ((minutes/60)%24);
         minutes = minutes - ((minutes/60)*60);
         // System prints the right time format
-        if((minutes / 10) == 0 && (hours / 10) == 0)
-			System.out.println("0" + hours + ":0" + minutes);
-				else 
-                     if((minutes / 10) == 0 && (hours / 10) != 0)
-                         System.out.println("0" + hours + ":" + minutes);
-                            else
-                                System.out.println(hours + ":0" + minutes);
-
+        if (hours < 10 && minutes < 10)
+         System.out.println("0" + hours + ":0" + minutes);
+            else if (hours < 10)
+                System.out.println("0" + hours + ":" + minutes);
+            else if (minutes < 10)
+                System.out.println(hours + ":0" + minutes);
+            else
+                System.out.println(hours + ":" + minutes);
         
 
 
