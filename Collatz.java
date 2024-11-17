@@ -37,9 +37,12 @@ public class Collatz {
 	}
 	if(mode.equals("c"))
 	{
-		if(concise=true)
+		if(concise)
 			System.out.println("Every one of the first " +counter + " hailstone sequences reached 1.");
 				else System.out.println("error");
+	}
+	if (mode.equals("v")) {
+		System.out.println("Every one of the first " + counter + " hailstone sequences reached 1.");
 	}
 
 
